@@ -6,4 +6,9 @@ This circuit contains two qubits. One qubit (q0) is superimposed with itself usi
 ![My first circuit](./docs/My_first_circuit.png)
 
 - Learn from https://quantum-computing.ibm.com/ about building the quantum circuit shown above.
-- Refer notebooks/HelloQuantum.ipynb notebook to build and execute above circuit in Python programming.
+- Refer notebooks/HelloQuantum.ipynb notebook to build and execute above circuit in Python programming. You can also check the run on **actual quantum computer** where you will observe the noise as |01> and |10> strenghts.
+
+![My first circuit on actual quantum computer](./docs/My_first_circuit_on_actual_quantum_comp.png)
+
+
+
