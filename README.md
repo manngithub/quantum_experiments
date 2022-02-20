@@ -51,3 +51,18 @@ This is how it will look like in circuit diagram. Note that every qubit is in |0
 <img src="./docs/quantum_teleportation_6.png"/>
 
 You can check same simulation using qiskit in [this](./notebooks/4.QuantumTeleportation.ipynb) notebook.
+
+## Bernstein Vazirani Algorithm
+
+Find the secret number!
+Let's say binary version of secret number has n bits. With classical Approach, it can take n evaluations to find the secret number. With Quantum approach (Bernstein Vazirani Algorithm), it will take 1 evaluation.
+
+Below is a circuit to identify 10101010100. It has length of 10 bits.
+
+<img src="./docs/Bernstein_Vazirani_Algorithm.png" width="600"/>
+
+Here are few points to quickly understand the working of above circuit -
+- If you apply Hadamard gate twice to any qubit, it will give you a single (initial) state
+- Notice, CNOT gate is applied only where 1 is present in the secret number.
+- 11th qubit is a helper qubit. There is a reason of applying NOT and Hadamard gate to it. These helps along with following CNOT gates to identify which qubit is in state 1.
+
